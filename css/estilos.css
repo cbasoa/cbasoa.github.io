@@ -1,0 +1,155 @@
+body{
+    background-image: linear-gradient(to right, rgb(235, 85, 16) ,rgb(235, 166, 16) , yellow, rgb(235, 85, 16));
+    font-size: 15px;
+}
+
+/* Cabecera*/
+#contenido{
+    top: 110%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+    position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 998;
+}
+#header{
+    background: url(../img/fondo.avif);
+    background-size: cover;
+    height: 70vh;
+    padding:  120px;
+    top: 0;
+	right: 0;
+	bottom: 5%;
+	left: 0;
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 999;
+}
+
+h1{
+    font-family: 'Chewy', cursive;
+    color: white;
+    text-shadow: 5px 5px black ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0.1em;
+    font-size: 10em;
+}
+
+.diseño{
+    font-family: 'Chewy', cursive;
+    color: white;
+    font-size: 5em;
+}
+
+/*Perfil profesional */
+.perfil{
+    text-align: center;
+    
+}
+
+h2{
+    font-family: 'Vina Sans', cursive;
+     text-shadow: 1px 1px white;
+     font-size: 5em;
+    letter-spacing: 2px;
+    color: rgb(12, 12, 12);
+    text-decoration: underline;
+}
+.perfil:hover{
+    background-image: linear-gradient(to left, rgb(235, 85, 16) ,rgb(235, 166, 16) , yellow, rgb(235, 85, 16));
+
+}
+.perfil p{
+    font-size: 3em;
+    color: rgb(105, 31, 105);
+    font-family: 'Chewy', cursive;
+    
+}
+
+/*Experiencia laboral*/
+.tabla1, ul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+th{
+    border: 2px dotted rgb(30, 23, 65);
+    background-image: linear-gradient(to top, rgb(235, 85, 16) , yellow, rgb(235, 85, 16));
+    padding: 0.5em;
+    font-family: 'Vina Sans', cursive;
+    font-size: 2em;
+}
+td{
+    border: 2px dotted rgb(30, 23, 65);
+    padding: 0.5em;
+    color: rgb(105, 31, 105);
+    font-family: 'Chewy', cursive;
+    font-size: 2em;
+}
+
+/*Habilidades y conocimientos */
+.perfil ul {
+    color: rgb(105,31,105);
+    font-family: 'Chewy', cursive;
+    font-size: 2em;
+}
+/*contacto*/
+::placeholder{
+    color: black;
+    font-family: 'Chewy', cursive;
+    letter-spacing: 2px;
+    font-size: 15px;
+    
+}
+
+.con{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    width: 30em;
+    block-size: 3em;
+    border:  3px solid rgb(16, 124, 124);
+    margin: 3px;
+    background-image: linear-gradient(to top, rgb(235, 85, 16) , yellow);
+}
+
+.con2{
+    font-size: 15px;
+    font-weight: bold;
+    width: 30em;
+    margin: 3px;
+    border:  3px solid rgb(16, 124, 124);
+    background-image: linear-gradient(to top, rgb(235, 85, 16) , yellow);}
+
+.submit{
+    background-image: linear-gradient(to top, rgb(235, 85, 16) , yellow);
+    font-family: 'Chewy', cursive;
+    font-size: 15px;
+     width: 20em;
+    height: 3em;
+    margin-bottom: 40px;
+}
+.submit:hover{
+    color: rgb(235, 85, 16) ;
+}
+/*Footer*/
+img{
+    height: 150px;
+    width: 100%;
+   
+}
+.perfil + #linea{
+    height: 10px;
+    background-color: rgb(21, 167, 167);
+    border: 1px dotted rgb(105,31,105);
+    margin-bottom: -0.7px;
+}
