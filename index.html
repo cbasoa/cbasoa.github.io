@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="estilos.css" rel="stylesheet" type="text/css" />
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Chewy&family=Vina+Sans&display=swap" rel="stylesheet">
     <title>Portafolio </title>
 </head>
 <body>
+    
     <div id="wraper"> <!--Contenedor de todo el cuerpo-->
+        <!--Parte superior de la pagina-->
+        <div id="header">
+        <h1>Cecilia Basoa </h1>
+        <p class="diseño">Diseño Web</p>
+         </div>
         
-        <div id="header"><!--Parte superior de la pagina-->
-           <h1>Cecilia Basoa </h1>
-           
-        </div> 
+       <!--Contenido-->
         <div id="contenido">           
-           <div class="perfil">
-            <h2>Perfil Personal</h2>
+           <div class="perfil" >
+            <h2 >PERFIL PERSONAL</h2>
             <p >Mi nombre es Cecilia, tengo 28 años, actualmente vivo en Montevideo/Uruguay,
                  en estos momentos estoy trabajando como tester de softare y aprendiendo sobre el mundo de la tecnología. 
                 Siempre me ha gustado este sector y además creo que es algo que es muy dinámico y en donde podes encontrar nuevas cosas para aprender en todo momento
@@ -23,14 +28,14 @@
            </div>
            <hr>
            <div class="perfil">
-            <h2> Experiencia Profesional</h2>
+            <h2> EXPERIENCIA PERSONAL</h2>
             
             <table class="tabla1">
                <tr>
-                   <th>Empresa / Organizacion	</th>
-                   <th>Cargo</th>
-                   <th>Localización</th>		
-                   <th>Desde - Hasta</th>
+                   <th>EMPRESA / ORGANIZACIÓN	</th>
+                   <th>CARGO</th>
+                   <th>LOCALIZACIÓN</th>		
+                   <th>DESDE - HASTA</th>
                </tr>
                <tr>
                    <td>Ascentis</td>	
@@ -51,7 +56,7 @@
            <hr>
            <!--Habilidades y conocimientos-->
            <div class="perfil">
-            <h2 >Habilidades y conocimientos</h2>
+            <h2 >HABILIDADES Y CONOCIMIENTOS</h2>
             <ul>
                 <li>
                     <b>Desarrollo Web:</b> HTML, CSS, JavaScript. Python, PHP, MySQL.
@@ -68,13 +73,18 @@
             <hr>
                 <!--Educación-->
                 <div class="perfil">
-                    <h2>Educación</h2>
+                    <h2>EDUCACIÓN</h2>
                     <table class="tabla1">
                         <tr>
-                            <th>Título</th>
-                            <th>Entidad</th>
-                            <th>Promoción</th>
+                            <th>TÍTULO</th>
+                            <th>ENTIDAD</th>
+                            <th>PROMOCIÓN</th>
                         </tr>
+                        <tr>
+                            <td>JAP-Jóvenes a programar</td>
+                            <td>Ceibal</td>
+                            <td>2023-</td>
+                         </tr>
                         <tr>
                             <td>Tester Profesional de software</td>
                             <td>CES</td>
@@ -112,9 +122,24 @@
                         </tr>
                      </table>
                 </div>
-                <hr id="linea">
+                <hr>
+                <!--Contacto-->
+                <div class="perfil">
+                    <h2>CONTACTO</h2>
+                    <form id="formulario" action="" method="" enctype="">
+                        <input class="con" type="text" name="Nombre" placeholder="NOMBRE">
+                        <br>
+                        <input class="con" type="email" name="email" placeholder="E-MAIL">
+                        <br>
+                        <input class="con" type="number" name="telefono" placeholder="TELÉFONO" >
+                        <br>
+                        <textarea class="con2" cols="50" rows="5" placeholder="INGRESE COMENTARIO AQUÍ"></textarea>
+                        <br>
+                        <input class="submit" type="submit" name="submit" value="ENVIAR">
+                    </form>
+                </div>
 
-                <div id="footer"><img src="test.jpg"  alt="Testing"></div>
+                <div id="footer"><img src="img/test.jpg"  alt="Testing"></div>
     </div>
     
 </body>
